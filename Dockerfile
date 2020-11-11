@@ -16,3 +16,4 @@ rm -rf /root/*
 ENV JAVA_HOME="/usr/local/jdk" PATH="${PATH}:/usr/local/jdk/bin"
 VOLUME ["/sys/fs/cgroup"]
 CMD ["/usr/sbin/init"]
+
