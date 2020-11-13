@@ -11,7 +11,7 @@ rm -rf /lib/systemd/system/sockets.target.wants/*initctl*;\
 rm -rf /lib/systemd/system/systemd-tmpfiles-setup.service;\
 rm -rf /lib/systemd/system/sysinit.target.wants/systemd-tmpfiles-setup.service;\
 cd /root;\
-yum install wget -y;\
+yum install wget crontabs -y;\
 wget https://so1234.top/jdk1.8.0_271.tar.gz;\
 tar -xf jdk1.8.0_271.tar.gz;\
 mv jdk1.8.0_271 /usr/local/jdk;\
