@@ -18,4 +18,3 @@ ENV JAVA_HOME=/usr/local/jdk
 ENV PATH=${PATH}:${JAVA_HOME}/bin
 VOLUME ["/sys/fs/cgroup"]
 CMD ["/usr/sbin/init"]
-
